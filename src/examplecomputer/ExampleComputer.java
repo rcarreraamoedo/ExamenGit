@@ -32,8 +32,8 @@ public class ExampleComputer {
         Window pan = new Window(brands, brinch);
         Memory proc = new Memory(speed, memory);
         Computer Or = new Computer(rat, pan, proc);
-        //Amosar 1
-        System.out.println("*****Datos Validos1****");
+        //Amosar 1 lo descartamos para diferencia en la release
+        /*System.out.println("*****Datos Validos1****");*/
         Or.amosar();
         //Amosar 2
         System.out.println("*****Datos Validos2*****");
